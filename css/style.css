@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+:root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-one: #146356;
+  --color-two: #464e2e;
+  --color-three: #966c3b;
+  --color-four: #876445;
+  --backpack-heros: #ecaa00;
+  --g3lifeapps: #85c236;
+  --mango-chapel: #db2b39;
+}
+::selection {
+  color: var(--color-one);
+}
+body {
+  background-color: black;
+  color: white;
+}
+.hero {
+  background-image: url('/img/header.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+nav {
+  color: var(--color-white);
+  display: flex;
+  padding: 3em;
+  width: 100%;
+  transition: 2s;
+}
+.logo-container {
+  flex: 1;
+}
+.logo-container h1 {
+  font-size: 2em;
+  font-weight: 800;
+}
+.logo-container a {
+  color: var(--color-white);
+  text-decoration: none;
+}
+.logo-container a:hover {
+  color: var(--color-one);
+}
+.link-container {
+  flex: 1;
+}
+.link-container ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+.link-container li {
+  padding: 0.6em 0.4em 0em 0.4em;
+}
+.link-container a {
+  color: var(--color-white);
+  text-decoration: none;
+}
+#button {
+  background-color: var(--color-one);
+  padding: 0.6em;
+  border-radius: 2em;
+}
+#button:hover {
+  color: white;
+  background-color: #464e2e;
+  animation-name: button;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.self-introduction {
+  color: var(--color-white);
+  padding: 3em;
+  transition: 2s;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 20em;
+  width: 90%;
+}
+.self-introduction h2 {
+  font-size: 9em;
+  font-weight: 900;
+}
+.self-introduction h3 {
+  font-size: 6.2em;
+  font-weight: 900;
+  position: relative;
+  bottom: 0.4em;
+}
+.self-introduction p {
+  font-size: 1.5em;
+  width: 30%;
+  position: relative;
+  bottom: 1.3em;
+}
+.social-links {
+  position: relative;
+  top: 25em;
+}
+.social-links ul {
+  list-style-type: none;
+  padding: 3em;
+  display: flex;
+}
+.social-links li {
+  padding: 0em 0.2em 0em 0.2em;
+  transform: scale(0.6);
+}
+@keyframes button {
+  0% {
+    background-color: var(--color-one);
+  }
+  50% {
+    background-color: var(--color-two);
+  }
+  100% {
+    background-color: #146356;
+  }
+}
+@keyframes project {
+  0% {
+    color: var(--backpack-heros);
+  }
+  50% {
+    color: var(--g3lifeapps);
+  }
+  80% {
+    color: var(--mango-chapel);
+  }
+  100% {
+    color: var(--backpack-heros);
+  }
+}
+.project-header-text h3 {
+  font-size: 3.5em;
+  text-align: center;
+  padding: 1em 0em 0em 0em;
+  transition: 2s;
+  animation-name: project;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.project-one {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 2em 3em 1em 3em;
+  transition: 2s;
+}
+.project-one h4 {
+  font-size: 3em;
+  text-align: center;
+  padding: 0.3em 0em 0.3em 0em;
+  color: var(--backpack-heros);
+}
+.project-one p {
+  font-size: 1.5em;
+  width: 50%;
+  text-align: center;
+  padding: 0em 0em 1.3em 0em;
+}
+.project-one img {
+  width: 50%;
+  border-radius: 2em;
+}
+.project-one a {
+  background-color: #ecaa00;
+  padding: 0.6em;
+  border-radius: 2em;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+.project-two {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 2em 3em 1em 3em;
+  transition: 2s;
+}
+.project-two h4 {
+  font-size: 3em;
+  text-align: center;
+  padding: 0.3em 0em 0.3em 0em;
+  color: var(--g3lifeapps);
+}
+.project-two p {
+  font-size: 1.5em;
+  width: 50%;
+  text-align: center;
+  padding: 0em 0em 1.3em 0em;
+}
+.project-two img {
+  width: 50%;
+  border-radius: 2em;
+}
+.project-two a {
+  background-color: var(--g3lifeapps);
+  padding: 0.6em;
+  border-radius: 2em;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+.project-three {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 2em 3em 1em 3em;
+  transition: 2s;
+}
+.project-three h4 {
+  font-size: 3em;
+  text-align: center;
+  padding: 0.3em 0em 0.3em 0em;
+  color: var(--mango-chapel);
+}
+.project-three p {
+  font-size: 1.5em;
+  width: 50%;
+  text-align: center;
+  padding: 0em 0em 1.3em 0em;
+}
+.project-three img {
+  width: 50%;
+  border-radius: 2em;
+}
+.project-three a {
+  background-color: var(--mango-chapel);
+  padding: 0.6em;
+  border-radius: 2em;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+.email-contact-section {
+  background-image: url('/img/hamed-hosseini-0kG6jZC_j78-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  background-attachment: fixed;
+  margin-top: 3em;
+  text-align: center;
+  transition: 2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.email-contact-section h4 {
+  font-size: 4.8em;
+  width: 70%;
+}
+.email-contact-section p {
+  font-size: 3em;
+  width: 70%;
+}
+.email-contact-section a {
+  background-color: var(--color-one);
+  padding: 0.6em;
+  border-radius: 2em;
+  font-size: 1.5em;
+  margin-top: 1em;
+  color: var(--color-white);
+  text-decoration: none;
+}
+.email-contact-section a:hover {
+  animation-name: button;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
