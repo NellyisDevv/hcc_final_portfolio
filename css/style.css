@@ -175,7 +175,7 @@ nav {
 }
 .project-one img {
   width: 50%;
-  border-radius: 2em;
+  border-radius: 25em;
 }
 .project-one a {
   background-color: #ecaa00;
@@ -206,7 +206,7 @@ nav {
 }
 .project-two img {
   width: 50%;
-  border-radius: 2em;
+  border-radius: 25em;
 }
 .project-two a {
   background-color: var(--g3lifeapps);
@@ -237,7 +237,7 @@ nav {
 }
 .project-three img {
   width: 50%;
-  border-radius: 2em;
+  border-radius: 25em;
 }
 .project-three a {
   background-color: var(--mango-chapel);
@@ -252,7 +252,7 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 70vh;
   background-attachment: fixed;
   margin-top: 3em;
   text-align: center;
@@ -283,4 +283,132 @@ nav {
   animation-name: button;
   animation-duration: 2s;
   animation-iteration-count: infinite;
+}
+.newsletter-sign-up {
+  align-items: center;
+  text-align: center;
+  background-color: var(--color-one);
+  padding: 6em;
+  border-radius: 10em;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  margin: 3em 0em 3em 4em;
+}
+.newsletter-header {
+  flex: 1;
+}
+.newsletter-header h4 {
+  font-size: 2.5em;
+}
+.newsletter-header p {
+  font-size: 1.2em;
+  padding: 0em 0em 1em 0em;
+}
+.newsletter-form {
+  flex: 1;
+  padding: 0em 0em 1em 0em;
+}
+.seperate1 {
+  position: relative;
+  right: 1em;
+}
+.seperate2 {
+  position: relative;
+  right: 0.5em;
+}
+
+.seperate4 {
+  position: relative;
+  left: 0.5em;
+}
+.newsletter-form input {
+  padding: 0.8em;
+  font-size: 1.2em;
+  border-radius: 2em;
+  border: none;
+}
+.newsletter-form button {
+  padding: 0.8em;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 2em;
+}
+.newsletter-footer {
+  flex: 1;
+}
+.newsletter-footer p {
+  font-size: 1em;
+}
+.footer-container {
+  background-color: var(--color-one);
+  display: flex;
+  padding: 2em;
+}
+.logo-footer {
+  flex: 3;
+  padding: 3em;
+}
+.logo-footer h5 {
+  font-size: 2.5em;
+}
+.logo-footer p {
+  font-size: 1em;
+  padding: 0.4em 0em 0em 0em;
+  color: rgb(206, 206, 206);
+}
+#bold {
+  color: white;
+}
+.explore-footer {
+  flex: 1;
+  padding: 3em;
+}
+.explore-footer h6 {
+  font-size: 1.5em;
+}
+.explore-footer ul {
+  list-style-type: none;
+}
+.explore-footer a {
+  color: rgb(206, 206, 206);
+  text-decoration: none;
+}
+.explore-footer a:hover {
+  color: white;
+}
+.follow-footer {
+  flex: 1;
+  padding: 3em;
+}
+.follow-footer h6 {
+  font-size: 1.5em;
+}
+.follow-footer ul {
+  list-style-type: none;
+}
+.follow-footer a {
+  color: rgb(206, 206, 206);
+  text-decoration: none;
+}
+.follow-footer a:hover {
+  color: white;
+}
+.credits-footer {
+  flex: 1;
+  padding: 3em;
+}
+.credits-footer h6 {
+  font-size: 1.5em;
+}
+.credits-footer ul {
+  list-style-type: none;
+}
+.credits-footer a {
+  color: rgb(206, 206, 206);
+  text-decoration: none;
+}
+.credits-footer a:hover {
+  color: white;
 }
