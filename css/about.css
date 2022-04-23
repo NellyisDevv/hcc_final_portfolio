@@ -17,14 +17,14 @@
   --mango-chapel: #db2b39;
 }
 ::selection {
-  color: var(--color-one);
+  color: var(--color-two);
 }
 body {
   background-color: black;
   color: white;
 }
 .hero {
-  background-image: url('/img/header.jpeg');
+  background-image: url('/img/aboutme.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -119,5 +119,790 @@ nav {
   }
   100% {
     color: var(--backpack-heros);
+  }
+}
+table {
+  width: 100%;
+  align-items: center;
+  width: 100%;
+  border-collapse: collapse;
+}
+.tr-one {
+  height: 170px;
+}
+.tr-one h3 {
+  font-size: 4em;
+  color: var(--color-one);
+}
+.tr-one p {
+  font-size: 1.5em;
+  width: 60%;
+  margin: auto;
+  padding: 1em 0em 1em 0em;
+}
+.info {
+  padding: 20px;
+  vertical-align: top;
+}
+.profile-td {
+  padding: 10px 20px;
+  background-color: #acb3b9;
+  text-align: center;
+}
+.profile {
+  height: 60vh;
+  border-radius: 20vh;
+  padding: 1em 0em 1em 0em;
+}
+.profile-circle {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+}
+.info {
+  text-align: center;
+}
+.exit-info {
+  padding: 5px;
+  background-color: var(--color-two);
+  text-align: center;
+  font-size: 1.2em;
+}
+.exit-info a {
+  color: var(--color-one);
+}
+.newsletter-footer {
+  flex: 1;
+}
+.newsletter-footer p {
+  font-size: 1em;
+}
+.footer-container {
+  background-color: var(--color-one);
+  display: flex;
+  padding: 2em;
+}
+.logo-footer {
+  flex: 3;
+  padding: 3em;
+}
+.logo-footer h5 {
+  font-size: 2.5em;
+}
+.logo-footer p {
+  font-size: 1em;
+  padding: 0.4em 0em 0em 0em;
+  color: rgb(206, 206, 206);
+}
+#bold {
+  color: white;
+}
+.explore-footer {
+  flex: 1;
+  padding: 3em;
+}
+.explore-footer h6 {
+  font-size: 1.5em;
+}
+.explore-footer ul {
+  list-style-type: none;
+}
+.explore-footer a {
+  color: rgb(206, 206, 206);
+  text-decoration: none;
+}
+.explore-footer a:hover {
+  color: white;
+}
+.follow-footer {
+  flex: 1;
+  padding: 3em;
+}
+.follow-footer h6 {
+  font-size: 1.5em;
+}
+.follow-footer ul {
+  list-style-type: none;
+}
+.follow-footer a {
+  color: rgb(206, 206, 206);
+  text-decoration: none;
+}
+.follow-footer a:hover {
+  color: white;
+}
+.credits-footer {
+  flex: 1;
+  padding: 3em;
+}
+.credits-footer h6 {
+  font-size: 1.5em;
+}
+.credits-footer ul {
+  list-style-type: none;
+}
+.credits-footer a {
+  color: rgb(206, 206, 206);
+  text-decoration: none;
+}
+.credits-footer a:hover {
+  color: white;
+}
+/* MOBILE RESPONSIVENESS
+///
+///
+///
+*/
+@media (max-width: 375px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+  .hero {
+    background-image: url('/img/header.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    background-attachment: fixed;
+  }
+  nav {
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    width: 100%;
+    transition: 2s;
+  }
+  .logo-container {
+    flex: 1;
+  }
+  .logo-container h1 {
+    font-size: 1.3em;
+    font-weight: 800;
+    text-align: center;
+  }
+  .logo-container a {
+    color: var(--color-white);
+    text-decoration: none;
+  }
+  .logo-container a:hover {
+    color: var(--color-one);
+  }
+  .link-container {
+    flex: 1;
+  }
+  .link-container ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    font-size: 0.8em;
+    font-weight: 500;
+  }
+  .link-container li {
+    padding: 0.6em 0.4em 0em 0.4em;
+  }
+  .link-container a {
+    color: var(--color-white);
+    text-decoration: none;
+  }
+  #button {
+    background-color: var(--color-one);
+    padding: 0.6em;
+    border-radius: 2em;
+  }
+  #button:hover {
+    color: white;
+    background-color: #464e2e;
+    animation-name: button;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  .self-introduction {
+    color: var(--color-white);
+    padding: 3em;
+    transition: 2s;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0em;
+    width: 100%;
+    text-align: center;
+  }
+  .self-introduction h2 {
+    font-size: 3.5em;
+    font-weight: 900;
+  }
+  @keyframes button {
+    0% {
+      background-color: var(--color-one);
+    }
+    50% {
+      background-color: var(--color-two);
+    }
+    100% {
+      background-color: #146356;
+    }
+  }
+  @keyframes project {
+    0% {
+      color: var(--backpack-heros);
+    }
+    50% {
+      color: var(--g3lifeapps);
+    }
+    80% {
+      color: var(--mango-chapel);
+    }
+    100% {
+      color: var(--backpack-heros);
+    }
+  }
+  table {
+    width: 100%;
+    align-items: center;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .tr-one {
+    height: 170px;
+  }
+  .tr-one h3 {
+    font-size: 3em;
+    color: var(--color-one);
+  }
+  .tr-one p {
+    font-size: 0.8em;
+    width: 90%;
+    margin: auto;
+    padding: 1em 0em 1em 0em;
+  }
+  .info {
+    padding: 20px;
+    vertical-align: top;
+  }
+  .profile-td {
+    padding: 10px 20px;
+    text-align: center;
+  }
+  .profile {
+    height: 60vh;
+    border-radius: 20vh;
+    padding: 1em 0em 1em 0em;
+    background-attachment: fixed;
+  }
+  .info {
+    text-align: center;
+  }
+  .exit-info {
+    padding: 5px;
+    background-color: var(--color-two);
+    text-align: center;
+    font-size: 0.8em;
+    position: relative;
+    top: 2.5em;
+  }
+  .exit-info a {
+    color: var(--color-one);
+  }
+  .newsletter-footer {
+    flex: 1;
+  }
+  .newsletter-footer p {
+    font-size: 1em;
+  }
+  .footer-container {
+    background-color: var(--color-one);
+    display: flex;
+    padding: 0.7em;
+    margin-top: 2em;
+  }
+  .logo-footer {
+    flex: 3;
+    padding: 0.7em;
+  }
+  .logo-footer h5 {
+    font-size: 0.8em;
+  }
+  .logo-footer p {
+    font-size: 0.7em;
+    padding: 0.4em 0em 0em 0em;
+    color: rgb(206, 206, 206);
+  }
+  #bold {
+    color: white;
+    font-size: 0.8em;
+  }
+  .explore-footer {
+    flex: 1em;
+    padding: 0.7em;
+  }
+  .explore-footer h6 {
+    font-size: 0.8em;
+  }
+  .explore-footer ul {
+    list-style-type: none;
+    font-size: 0.7em;
+  }
+  .explore-footer a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+  }
+  .explore-footer a:hover {
+    color: white;
+  }
+  .follow-footer {
+    flex: 1;
+    padding: 0.7em;
+  }
+  .follow-footer h6 {
+    font-size: 0.8em;
+  }
+  .follow-footer ul {
+    list-style-type: none;
+    font-size: 0.7em;
+  }
+  .follow-footer a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+  }
+  .follow-footer a:hover {
+    color: white;
+  }
+  .credits-footer {
+    flex: 1em;
+    padding: 0.7em;
+  }
+  .credits-footer h6 {
+    font-size: 0.8em;
+  }
+  .credits-footer ul {
+    list-style-type: none;
+    font-size: 0.7em;
+  }
+  .credits-footer a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+  }
+  .credits-footer a:hover {
+    color: white;
+  }
+}
+/* Iphone XR and UP 
+///
+///
+///
+*/
+@media (min-width: 376px) and (max-width: 480px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+  .hero {
+    background-image: url('/img/header.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    background-attachment: fixed;
+  }
+  nav {
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    width: 100%;
+    transition: 2s;
+  }
+  .logo-container {
+    flex: 1;
+  }
+  .logo-container h1 {
+    font-size: 1.3em;
+    font-weight: 800;
+    text-align: center;
+  }
+  .logo-container a {
+    color: var(--color-white);
+    text-decoration: none;
+  }
+  .logo-container a:hover {
+    color: var(--color-one);
+  }
+  .link-container {
+    flex: 1;
+  }
+  .link-container ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    font-size: 0.8em;
+    font-weight: 500;
+  }
+  .link-container li {
+    padding: 0.6em 0.4em 0em 0.4em;
+  }
+  .link-container a {
+    color: var(--color-white);
+    text-decoration: none;
+  }
+  #button {
+    background-color: var(--color-one);
+    padding: 0.6em;
+    border-radius: 2em;
+  }
+  #button:hover {
+    color: white;
+    background-color: #464e2e;
+    animation-name: button;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  .self-introduction {
+    color: var(--color-white);
+    padding: 3em;
+    transition: 2s;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0em;
+    width: 100%;
+    text-align: center;
+  }
+  .self-introduction h2 {
+    font-size: 5em;
+    font-weight: 900;
+  }
+  table {
+    width: 100%;
+    align-items: center;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .tr-one {
+    height: 170px;
+  }
+  .tr-one h3 {
+    font-size: 3em;
+    color: var(--color-one);
+  }
+  .tr-one p {
+    font-size: 0.8em;
+    width: 90%;
+    margin: auto;
+    padding: 1em 0em 1em 0em;
+  }
+  .info {
+    padding: 20px;
+    vertical-align: top;
+  }
+  .profile-td {
+    padding: 10px 20px;
+    text-align: center;
+  }
+  .profile {
+    height: 60vh;
+    border-radius: 20vh;
+    padding: 1em 0em 1em 0em;
+    background-attachment: fixed;
+  }
+  .info {
+    text-align: center;
+  }
+  .exit-info {
+    padding: 5px;
+    background-color: var(--color-two);
+    text-align: center;
+    font-size: 0.8em;
+    position: relative;
+    top: 2.5em;
+  }
+  .exit-info a {
+    color: var(--color-one);
+  }
+  .footer-container {
+    background-color: var(--color-one);
+    display: flex;
+    padding: 0.7em;
+    margin-top: 2em;
+  }
+  .logo-footer {
+    flex: 3;
+    padding: 0.7em;
+  }
+  .logo-footer h5 {
+    font-size: 0.8em;
+  }
+  .logo-footer p {
+    font-size: 0.7em;
+    padding: 0.4em 0em 0em 0em;
+    color: rgb(206, 206, 206);
+  }
+  #bold {
+    color: white;
+    font-size: 0.8em;
+  }
+  .explore-footer {
+    flex: 1em;
+    padding: 0.7em;
+  }
+  .explore-footer h6 {
+    font-size: 0.8em;
+  }
+  .explore-footer ul {
+    list-style-type: none;
+    font-size: 0.7em;
+  }
+  .explore-footer a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+  }
+  .explore-footer a:hover {
+    color: white;
+  }
+  .follow-footer {
+    flex: 1;
+    padding: 0.7em;
+  }
+  .follow-footer h6 {
+    font-size: 0.8em;
+  }
+  .follow-footer ul {
+    list-style-type: none;
+    font-size: 0.7em;
+  }
+  .follow-footer a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+  }
+  .follow-footer a:hover {
+    color: white;
+  }
+  .credits-footer {
+    flex: 1em;
+    padding: 0.7em;
+  }
+  .credits-footer h6 {
+    font-size: 0.8em;
+  }
+  .credits-footer ul {
+    list-style-type: none;
+    font-size: 0.7em;
+  }
+  .credits-footer a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+  }
+  .credits-footer a:hover {
+    color: white;
+  }
+}
+/* TABLETS */
+@media (min-width: 481px) and (max-width: 912px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+  .hero {
+    background-image: url('/img/header.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    background-attachment: fixed;
+  }
+  nav {
+    color: var(--color-white);
+    display: flex;
+    padding: 2em;
+    width: 100%;
+    transition: 2s;
+  }
+  .logo-container {
+    flex: 1;
+  }
+  .logo-container h1 {
+    font-size: 3em;
+    font-weight: 800;
+    text-align: center;
+  }
+  .logo-container a {
+    color: var(--color-white);
+    text-decoration: none;
+  }
+  .logo-container a:hover {
+    color: var(--color-one);
+  }
+  .link-container {
+    flex: 1;
+  }
+  .link-container ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    font-size: 1.2em;
+    margin-top: 0.8em;
+    font-weight: 500;
+  }
+  .link-container li {
+    padding: 0.6em 0.4em 0em 0.4em;
+  }
+  .link-container a {
+    color: var(--color-white);
+    text-decoration: none;
+  }
+  #button {
+    background-color: var(--color-one);
+    padding: 0.6em;
+    border-radius: 2em;
+  }
+  #button:hover {
+    color: white;
+    background-color: #464e2e;
+    animation-name: button;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  .self-introduction {
+    color: var(--color-white);
+    padding: 3em;
+    transition: 2s;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0em;
+    width: 100%;
+    text-align: center;
+  }
+  .self-introduction h2 {
+    font-size: 7em;
+    font-weight: 900;
+  }
+  table {
+    width: 100%;
+    align-items: center;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .tr-one {
+    height: 170px;
+  }
+  .tr-one h3 {
+    font-size: 3em;
+    color: var(--color-one);
+  }
+  .tr-one p {
+    font-size: 0.8em;
+    width: 90%;
+    margin: auto;
+    padding: 1em 0em 1em 0em;
+  }
+  .info {
+    padding: 20px;
+    vertical-align: top;
+  }
+  .profile-td {
+    padding: 10px 20px;
+    text-align: center;
+  }
+  .profile {
+    height: 60vh;
+    border-radius: 20vh;
+    padding: 1em 0em 1em 0em;
+    background-attachment: fixed;
+  }
+  .info {
+    text-align: center;
+  }
+  .exit-info {
+    padding: 5px;
+    background-color: var(--color-two);
+    text-align: center;
+    font-size: 0.8em;
+    position: relative;
+    top: 2.5em;
+  }
+  .exit-info a {
+    color: var(--color-one);
+  }
+  .footer-container {
+    background-color: var(--color-one);
+    display: flex;
+    padding: 0.7em;
+    margin-top: 2em;
+  }
+  .logo-footer {
+    flex: 3;
+    padding: 0.7em;
+  }
+  .logo-footer h5 {
+    font-size: 0.8em;
+  }
+  .logo-footer p {
+    font-size: 0.7em;
+    padding: 0.4em 0em 0em 0em;
+    color: rgb(206, 206, 206);
+  }
+  #bold {
+    color: white;
+    font-size: 0.8em;
+  }
+  .explore-footer {
+    flex: 1em;
+    padding: 0.7em;
+  }
+  .explore-footer h6 {
+    font-size: 0.8em;
+  }
+  .explore-footer ul {
+    list-style-type: none;
+    font-size: 0.7em;
+  }
+  .explore-footer a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+  }
+  .explore-footer a:hover {
+    color: white;
+  }
+  .follow-footer {
+    flex: 1;
+    padding: 0.7em;
+  }
+  .follow-footer h6 {
+    font-size: 0.8em;
+  }
+  .follow-footer ul {
+    list-style-type: none;
+    font-size: 0.7em;
+  }
+  .follow-footer a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+  }
+  .follow-footer a:hover {
+    color: white;
+  }
+  .credits-footer {
+    flex: 1em;
+    padding: 0.7em;
+  }
+  .credits-footer h6 {
+    font-size: 0.8em;
+  }
+  .credits-footer ul {
+    list-style-type: none;
+    font-size: 0.7em;
+  }
+  .credits-footer a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+  }
+  .credits-footer a:hover {
+    color: white;
   }
 }
