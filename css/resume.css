@@ -17,14 +17,14 @@
   --mango-chapel: #db2b39;
 }
 ::selection {
-  color: var(--color-one);
+  color: var(--color-two);
 }
 body {
   background-color: black;
   color: white;
 }
 .hero {
-  background-image: url('/img/resume.jpg');
+  background-image: url('/img/contactfix.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -120,6 +120,106 @@ nav {
   100% {
     color: var(--backpack-heros);
   }
+}
+.newsletter-footer {
+  flex: 1;
+}
+.newsletter-footer p {
+  font-size: 1em;
+}
+.footer-container {
+  background-color: var(--color-one);
+  display: flex;
+  padding: 2em;
+}
+.logo-footer {
+  flex: 3;
+  padding: 3em;
+}
+.logo-footer h5 {
+  font-size: 2.5em;
+}
+.logo-footer p {
+  font-size: 1em;
+  padding: 0.4em 0em 0em 0em;
+  color: rgb(206, 206, 206);
+}
+#bold {
+  color: white;
+}
+.explore-footer {
+  flex: 1;
+  padding: 3em;
+}
+.explore-footer h6 {
+  font-size: 1.5em;
+}
+.explore-footer ul {
+  list-style-type: none;
+}
+.explore-footer a {
+  color: rgb(206, 206, 206);
+  text-decoration: none;
+}
+.explore-footer a:hover {
+  color: white;
+}
+.follow-footer {
+  flex: 1;
+  padding: 3em;
+}
+.follow-footer h6 {
+  font-size: 1.5em;
+}
+.follow-footer ul {
+  list-style-type: none;
+}
+.follow-footer a {
+  color: rgb(206, 206, 206);
+  text-decoration: none;
+}
+.follow-footer a:hover {
+  color: white;
+}
+.credits-footer {
+  flex: 1;
+  padding: 3em;
+}
+.credits-footer h6 {
+  font-size: 1.5em;
+}
+.credits-footer ul {
+  list-style-type: none;
+}
+.credits-footer a {
+  color: rgb(206, 206, 206);
+  text-decoration: none;
+}
+.credits-footer a:hover {
+  color: white;
+}
+
+.resume-section {
+  align-items: center;
+  text-align: center;
+  padding: 3em;
+}
+.resume-photo {
+  width: 70%;
+  border-radius: 2em;
+  margin: auto;
+}
+.button {
+  text-align: center;
+  padding: 3em;
+}
+.button a {
+  background-color: var(--color-one);
+  color: white;
+  font-size: 1.5em;
+  text-decoration: none;
+  padding: 1em;
+  border-radius: 2em;
 }
 .newsletter-footer {
   flex: 1;

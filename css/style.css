@@ -517,31 +517,6 @@ nav {
     padding: 0em 0.2em 0em 0.2em;
     transform: scale(0.4);
   }
-  @keyframes button {
-    0% {
-      background-color: var(--color-one);
-    }
-    50% {
-      background-color: var(--color-two);
-    }
-    100% {
-      background-color: #146356;
-    }
-  }
-  @keyframes project {
-    0% {
-      color: var(--backpack-heros);
-    }
-    50% {
-      color: var(--g3lifeapps);
-    }
-    80% {
-      color: var(--mango-chapel);
-    }
-    100% {
-      color: var(--backpack-heros);
-    }
-  }
   .project-header-text h3 {
     font-size: 2em;
     text-align: center;
@@ -1555,7 +1530,6 @@ nav {
   .newsletter-footer {
     flex: 1;
   }
-
   .newsletter-footer p {
     font-size: 1em;
   }
