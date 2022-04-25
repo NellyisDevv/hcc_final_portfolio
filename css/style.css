@@ -1203,6 +1203,14 @@ nav {
     color: white;
   }
 }
+/* TABLET VIEW 
+/
+/
+/
+/
+/
+/
+*/
 @media (min-width: 481px) and (max-width: 912px) {
   body {
     background-color: black;

@@ -24,7 +24,7 @@ body {
   color: white;
 }
 .hero {
-  background-image: url('/img/contactfix.jpg');
+  background-image: url('/img/resume.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -211,7 +211,8 @@ nav {
 }
 .button {
   text-align: center;
-  padding: 3em;
+  padding: 2em;
+  margin: 2em 0em 0em 0em;
 }
 .button a {
   background-color: var(--color-one);
@@ -297,4 +298,610 @@ nav {
 }
 .credits-footer a:hover {
   color: white;
+}
+/* Iphone SE EQUIVALENT
+/
+/
+/
+/
+/
+/
+*/
+@media (max-width: 375px) {
+  .hero {
+    background-image: url('/img/resume.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    background-attachment: fixed;
+  }
+  nav {
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    width: 100%;
+    transition: 2s;
+  }
+  .logo-container {
+    flex: 1;
+  }
+  .logo-container h1 {
+    font-size: 1.3em;
+    font-weight: 800;
+    text-align: center;
+  }
+  .logo-container a {
+    color: var(--color-white);
+    text-decoration: none;
+  }
+  .logo-container a:hover {
+    color: var(--color-one);
+  }
+  .link-container {
+    flex: 1;
+  }
+  .link-container ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    font-size: 0.8em;
+    font-weight: 500;
+  }
+  .link-container li {
+    padding: 0.6em 0.4em 0em 0.4em;
+  }
+  .link-container a {
+    color: var(--color-white);
+    text-decoration: none;
+  }
+  #button {
+    background-color: var(--color-one);
+    padding: 0.6em;
+    border-radius: 2em;
+  }
+  #button:hover {
+    color: white;
+    background-color: #464e2e;
+    animation-name: button;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  .self-introduction {
+    color: var(--color-white);
+    padding: 3em;
+    transition: 2s;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0em;
+    width: 100%;
+    text-align: center;
+  }
+  .self-introduction h2 {
+    font-size: 3.5em;
+    font-weight: 900;
+  }
+  .footer-container {
+    background-color: var(--color-one);
+    display: flex;
+    padding: 0.7em;
+    margin-top: 2em;
+  }
+  .logo-footer {
+    flex: 3;
+    padding: 0.7em;
+  }
+  .logo-footer h5 {
+    font-size: 0.8em;
+  }
+  .logo-footer p {
+    font-size: 0.7em;
+    padding: 0.4em 0em 0em 0em;
+    color: rgb(206, 206, 206);
+  }
+  #bold {
+    color: white;
+    font-size: 0.8em;
+  }
+  .explore-footer {
+    flex: 1em;
+    padding: 0.7em;
+  }
+  .explore-footer h6 {
+    font-size: 0.8em;
+  }
+  .explore-footer ul {
+    list-style-type: none;
+    font-size: 0.7em;
+  }
+  .explore-footer a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+  }
+  .explore-footer a:hover {
+    color: white;
+  }
+  .follow-footer {
+    flex: 1;
+    padding: 0.7em;
+  }
+  .follow-footer h6 {
+    font-size: 0.8em;
+  }
+  .follow-footer ul {
+    list-style-type: none;
+    font-size: 0.7em;
+  }
+  .follow-footer a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+  }
+  .follow-footer a:hover {
+    color: white;
+  }
+  .credits-footer {
+    flex: 1em;
+    padding: 0.7em;
+  }
+  .credits-footer h6 {
+    font-size: 0.8em;
+  }
+  .credits-footer ul {
+    list-style-type: none;
+    font-size: 0.7em;
+  }
+  .credits-footer a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+  }
+  .credits-footer a:hover {
+    color: white;
+  }
+}
+/* IPHONE XR EQUIVALENT
+/
+/
+/
+/
+/
+/
+/
+/
+*/
+@media (min-width: 376px) and (max-width: 480px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+  .hero {
+    background-image: url('/img/resume.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    background-attachment: fixed;
+  }
+  nav {
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    width: 100%;
+    transition: 2s;
+  }
+  .logo-container {
+    flex: 1;
+  }
+  .logo-container h1 {
+    font-size: 2em;
+    font-weight: 800;
+    text-align: center;
+  }
+  .logo-container a {
+    color: var(--color-white);
+    text-decoration: none;
+  }
+  .logo-container a:hover {
+    color: var(--color-one);
+  }
+  .link-container {
+    flex: 1;
+  }
+  .link-container ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    font-size: 1em;
+    font-weight: 500;
+    align-items: center;
+  }
+  .link-container li {
+    padding: 0.6em 0.4em 0em 0.4em;
+  }
+  .link-container a {
+    color: var(--color-white);
+    text-decoration: none;
+  }
+  #button {
+    background-color: var(--color-one);
+    padding: 0.6em;
+    border-radius: 2em;
+    position: relative;
+    top: 0.4em;
+  }
+  #button:hover {
+    color: white;
+    background-color: #464e2e;
+    animation-name: button;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .self-introduction {
+    color: var(--color-white);
+    padding: 3em;
+    transition: 2s;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0em;
+    width: 90%;
+  }
+  .self-introduction h2 {
+    font-size: 5em;
+    font-weight: 900;
+  }
+  .footer-container {
+    background-color: var(--color-one);
+    display: flex;
+    padding: 0.7em;
+    margin-top: 2em;
+  }
+  .logo-footer {
+    flex: 3;
+    padding: 0.7em;
+  }
+  .logo-footer h5 {
+    font-size: 1em;
+  }
+  .logo-footer p {
+    font-size: 0.7em;
+    padding: 0.4em 0em 0em 0em;
+    color: rgb(206, 206, 206);
+  }
+  #bold {
+    color: white;
+    font-size: 1em;
+  }
+  .explore-footer {
+    flex: 1em;
+    padding: 0.7em;
+  }
+  .explore-footer h6 {
+    font-size: 1em;
+  }
+  .explore-footer ul {
+    list-style-type: none;
+    font-size: 0.7em;
+  }
+  .explore-footer a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+  }
+  .explore-footer a:hover {
+    color: white;
+  }
+  .follow-footer {
+    flex: 1;
+    padding: 0.7em;
+  }
+  .follow-footer h6 {
+    font-size: 1em;
+  }
+  .follow-footer ul {
+    list-style-type: none;
+    font-size: 0.7em;
+  }
+  .follow-footer a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+  }
+  .follow-footer a:hover {
+    color: white;
+  }
+  .credits-footer {
+    flex: 1em;
+    padding: 0.7em;
+  }
+  .credits-footer h6 {
+    font-size: 1em;
+  }
+  .credits-footer ul {
+    list-style-type: none;
+    font-size: 0.7em;
+  }
+  .credits-footer a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+  }
+  .credits-footer a:hover {
+    color: white;
+  }
+}
+/* TABLET VIEW
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+*/
+@media (min-width: 481px) and (max-width: 912px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+  .hero {
+    background-image: url('/img/resume.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    background-attachment: fixed;
+  }
+  nav {
+    color: var(--color-white);
+    display: flex;
+    padding: 2em;
+    width: 100%;
+    transition: 2s;
+  }
+  .logo-container {
+    flex: 1;
+  }
+  .logo-container h1 {
+    font-size: 2.5em;
+    font-weight: 800;
+    text-align: center;
+  }
+  .logo-container a {
+    color: var(--color-white);
+    text-decoration: none;
+  }
+  .logo-container a:hover {
+    color: var(--color-one);
+  }
+  .link-container {
+    flex: 1;
+  }
+  .link-container ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    font-size: 1.2em;
+    font-weight: 500;
+    align-items: center;
+  }
+  .link-container li {
+    padding: 0.6em 0.4em 0em 0.4em;
+  }
+  .link-container a {
+    color: var(--color-white);
+    text-decoration: none;
+  }
+  #button {
+    background-color: var(--color-one);
+    padding: 0.6em;
+    border-radius: 2em;
+    position: relative;
+    top: 0.4em;
+  }
+  #button:hover {
+    color: white;
+    background-color: #464e2e;
+    animation-name: button;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .self-introduction {
+    color: var(--color-white);
+    padding: 3em;
+    transition: 2s;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 4em;
+    width: 90%;
+  }
+  .self-introduction h2 {
+    font-size: 8em;
+    font-weight: 900;
+  }
+  .footer-container {
+    background-color: var(--color-one);
+    display: flex;
+    padding: 2em;
+    margin-top: 2em;
+  }
+  .logo-footer {
+    flex: 3;
+    padding: 1em;
+  }
+  .logo-footer h5 {
+    font-size: 1.5em;
+  }
+  .logo-footer p {
+    font-size: 1em;
+    padding: 0.4em 0em 0em 0em;
+    color: rgb(206, 206, 206);
+  }
+  #bold {
+    color: white;
+    font-size: 1em;
+  }
+  .explore-footer {
+    flex: 1em;
+    padding: 0.7em;
+  }
+  .explore-footer h6 {
+    font-size: 1.5em;
+  }
+  .explore-footer ul {
+    list-style-type: none;
+    font-size: 1em;
+  }
+  .explore-footer a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+  }
+  .explore-footer a:hover {
+    color: white;
+  }
+  .follow-footer {
+    flex: 1;
+    padding: 0.7em;
+  }
+  .follow-footer h6 {
+    font-size: 1.5em;
+  }
+  .follow-footer ul {
+    list-style-type: none;
+    font-size: 1em;
+  }
+  .follow-footer a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+  }
+  .follow-footer a:hover {
+    color: white;
+  }
+  .credits-footer {
+    flex: 1em;
+    padding: 0.7em;
+  }
+  .credits-footer h6 {
+    font-size: 1.5em;
+  }
+  .credits-footer ul {
+    list-style-type: none;
+    font-size: 1em;
+  }
+  .credits-footer a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+  }
+  .credits-footer a:hover {
+    color: white;
+  }
+}
+@media (min-width: 1680px) and (max-width: 1800px) {
+  .self-introduction {
+    top: 10em;
+  }
+  .social-links {
+    position: relative;
+    top: 10em;
+  }
+}
+/* RESPONSIVE VIEW ON SOME SMALLER LAPTOPS */
+@media (min-width: 913px) and (max-width: 1300px) {
+  nav {
+    color: var(--color-white);
+    display: flex;
+    padding: 2em;
+    width: 100%;
+    transition: 2s;
+  }
+  .logo-container {
+    flex: 1;
+  }
+  .logo-container h1 {
+    font-size: 2.5em;
+    font-weight: 800;
+    text-align: center;
+  }
+  .logo-container a {
+    color: var(--color-white);
+    text-decoration: none;
+  }
+  .logo-container a:hover {
+    color: var(--color-one);
+  }
+  .link-container {
+    flex: 1;
+  }
+  .link-container ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    font-size: 1.2em;
+    font-weight: 500;
+    align-items: center;
+  }
+  .link-container li {
+    padding: 0.6em 0.4em 0em 0.4em;
+  }
+  .link-container a {
+    color: var(--color-white);
+    text-decoration: none;
+  }
+  #button {
+    background-color: var(--color-one);
+    padding: 0.6em;
+    border-radius: 2em;
+    position: relative;
+    top: 0.4em;
+  }
+  #button:hover {
+    color: white;
+    background-color: #464e2e;
+    animation-name: button;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .self-introduction {
+    color: var(--color-white);
+    padding: 3em;
+    transition: 2s;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 8em;
+    width: 90%;
+  }
+  .self-introduction h2 {
+    font-size: 6em;
+    font-weight: 900;
+  }
+  .self-introduction h3 {
+    font-size: 4em;
+    font-weight: 900;
+    position: relative;
+    bottom: 0.4em;
+  }
+  .self-introduction p {
+    font-size: 1.2em;
+    width: 80%;
+    position: relative;
+    bottom: 0.8em;
+  }
+  .social-links {
+    position: relative;
+    top: 20em;
+  }
+  .social-links ul {
+    list-style-type: none;
+    padding: 3em;
+    display: flex;
+  }
+  .social-links li {
+    padding: 0em 0.2em 0em 0.2em;
+    transform: scale(0.6);
+  }
 }
