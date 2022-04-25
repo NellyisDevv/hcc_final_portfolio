@@ -24,7 +24,7 @@ body {
   color: white;
 }
 .hero {
-  background-image: url('/img/contactfix.jpg');
+  background-image: url('../img/contactfix.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -248,6 +248,13 @@ nav {
 /
 /
 /
+/
+/
+/
+/
+/
+/
+/
 */
 @media (max-width: 375px) {
   body {
@@ -255,7 +262,7 @@ nav {
     color: white;
   }
   .hero {
-    background-image: url('/img/header.jpeg');
+    background-image: url('../img/contactfix.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -459,6 +466,15 @@ IPHONE XR
 /
 /
 /
+/
+/
+/
+/
+/
+/
+/
+/
+/
 */
 @media (min-width: 376px) and (max-width: 480px) {
   body {
@@ -466,7 +482,7 @@ IPHONE XR
     color: white;
   }
   .hero {
-    background-image: url('/img/header.jpeg');
+    background-image: url('../img/contactfix.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -670,6 +686,14 @@ IPHONE XR
 /
 /
 /
+/
+/
+/
+/
+/
+/
+/
+/
 */
 @media (min-width: 481px) and (max-width: 912px) {
   body {
@@ -677,7 +701,7 @@ IPHONE XR
     color: white;
   }
   .hero {
-    background-image: url('/img/header.jpeg');
+    background-image: url('../img/contactfix.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
