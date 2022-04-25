@@ -34,9 +34,15 @@
           </div>
         </nav>
       </header>
+      <script>
+        function easter() {
+          document.getElementById('easter').value;
+          alert('You Found My Easter Egg!');
+        }
+      </script>
       <div class="self-introduction">
         <h2>Hi I'm Nelson</h2>
-        <h3>A Web Developer!</h3>
+        <h3>A Web <span onclick="easter()" id="easter">Developer!</span></h3>
         <p>
           I'm currently enrolled at Hillsborough Community College, receiving an
           A.S. Degree in Web Design.
@@ -112,7 +118,11 @@
       <div class="email-contact-section">
         <h4>Interested in My Work?</h4>
         <p>I would love to work with you!</p>
-        <a href="#">Get in Touch!</a>
+        <a
+          href="mailto:NellyisDev@gmail.com"
+          title="Send e-mail to NellyisDev@gmail.com"
+          >Get In Touch!</a
+        >
       </div>
       <section class="newsletter-sign-up">
         <div class="newsletter-container">
@@ -123,21 +133,18 @@
           <div class="newsletter-form">
             <form action="Email Form">
               <input
-                id="text1"
                 class="seperate1"
                 required
                 placeholder="First Name"
                 type="text"
               />
               <input
-                id="text2"
                 class="seperate2"
                 required
                 placeholder="Last Name"
                 type="text"
               />
               <input
-                id="text3"
                 class="seperate3"
                 required
                 placeholder="Email Address"
