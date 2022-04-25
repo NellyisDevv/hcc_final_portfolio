@@ -24,7 +24,7 @@ body {
   color: white;
 }
 .hero {
-  background-image: url('/img/header.jpeg');
+  background-image: url('../img/header.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -248,7 +248,7 @@ nav {
   font-size: 1.3em;
 }
 .email-contact-section {
-  background-image: url('/img/hamed-hosseini-0kG6jZC_j78-unsplash.jpg');
+  background-image: url('../img/hamed-hosseini-0kG6jZC_j78-unsplash.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -412,14 +412,27 @@ nav {
 .credits-footer a:hover {
   color: white;
 }
-/* GALAXY FOLD RESPONSIVENESS */
+/* Iphone SE
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+*/
 @media (max-width: 375px) {
   body {
     background-color: black;
     color: white;
   }
   .hero {
-    background-image: url('/img/header.jpeg');
+    background-image: url('../img/header.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -620,7 +633,7 @@ nav {
     font-size: 0.8em;
   }
   .email-contact-section {
-    background-image: url('/img/hamed-hosseini-0kG6jZC_j78-unsplash.jpg');
+    background-image: url('../img/hamed-hosseini-0kG6jZC_j78-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -793,14 +806,27 @@ nav {
     color: white;
   }
 }
-/* Iphone XR and up */
+/* Iphone XR and up
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+*/
 @media (min-width: 376px) and (max-width: 480px) {
   body {
     background-color: black;
     color: white;
   }
   .hero {
-    background-image: url('/img/header.jpeg');
+    background-image: url('../img/header.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1030,7 +1056,7 @@ nav {
     font-size: 1em;
   }
   .email-contact-section {
-    background-image: url('/img/hamed-hosseini-0kG6jZC_j78-unsplash.jpg');
+    background-image: url('../img/hamed-hosseini-0kG6jZC_j78-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1210,6 +1236,13 @@ nav {
 /
 /
 /
+/
+/
+/
+/
+/
+/
+/
 */
 @media (min-width: 481px) and (max-width: 912px) {
   body {
@@ -1217,7 +1250,7 @@ nav {
     color: white;
   }
   .hero {
-    background-image: url('/img/header.jpeg');
+    background-image: url('../img/header.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1446,7 +1479,7 @@ nav {
     font-size: 1em;
   }
   .email-contact-section {
-    background-image: url('/img/hamed-hosseini-0kG6jZC_j78-unsplash.jpg');
+    background-image: url('../img/hamed-hosseini-0kG6jZC_j78-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1618,6 +1651,20 @@ nav {
     color: white;
   }
 }
+/* DONT EVEN REMEMBER
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+*/
 @media (min-width: 1680px) and (max-width: 1800px) {
   .self-introduction {
     top: 10em;
@@ -1627,7 +1674,21 @@ nav {
     top: 10em;
   }
 }
-/* RESPONSIVE VIEW ON SOME SMALLER LAPTOPS */
+/* RESPONSIVE VIEW ON SOME SMALLER LAPTOPS 
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+*/
 @media (min-width: 913px) and (max-width: 1300px) {
   nav {
     color: var(--color-white);
