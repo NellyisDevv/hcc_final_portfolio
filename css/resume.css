@@ -24,7 +24,7 @@ body {
   color: white;
 }
 .hero {
-  background-image: url('/img/resume.jpg');
+  background-image: url('../img/resume.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -306,10 +306,20 @@ nav {
 /
 /
 /
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
 */
 @media (max-width: 375px) {
   .hero {
-    background-image: url('/img/resume.jpg');
+    background-image: url('../img/resume.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -470,6 +480,13 @@ nav {
 /
 /
 /
+/
+/
+/
+/
+/
+/
+/
 */
 @media (min-width: 376px) and (max-width: 480px) {
   body {
@@ -477,7 +494,7 @@ nav {
     color: white;
   }
   .hero {
-    background-image: url('/img/resume.jpg');
+    background-image: url('../img/resume.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -641,6 +658,12 @@ nav {
 /
 /
 /
+/
+/
+/
+/
+/
+/
 */
 @media (min-width: 481px) and (max-width: 912px) {
   body {
@@ -648,7 +671,7 @@ nav {
     color: white;
   }
   .hero {
-    background-image: url('/img/resume.jpg');
+    background-image: url('../img/resume.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
