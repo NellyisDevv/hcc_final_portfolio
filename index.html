@@ -121,26 +121,36 @@
             <p>Sign up with your email address to receive news and updates.</p>
           </div>
           <div class="newsletter-form">
-            <form action="">
+            <form action="Email Form">
               <input
+                id="text1"
                 class="seperate1"
                 required
                 placeholder="First Name"
                 type="text"
               />
               <input
+                id="text2"
                 class="seperate2"
                 required
                 placeholder="Last Name"
                 type="text"
               />
               <input
+                id="text3"
                 class="seperate3"
                 required
                 placeholder="Email Address"
                 type="email"
               />
-              <button class="seperate4" type="submit">Sign Up</button>
+              <button
+                onclick="myfun()"
+                value="submit"
+                class="seperate4"
+                type="button"
+              >
+                Sign Up
+              </button>
             </form>
           </div>
           <div class="newsletter-footer">
