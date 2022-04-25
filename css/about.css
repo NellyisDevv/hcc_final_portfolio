@@ -24,7 +24,7 @@ body {
   color: white;
 }
 .hero {
-  background-image: url('/img/aboutme.jpg');
+  background-image: url('../img/aboutme.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -250,9 +250,21 @@ table {
   color: white;
 }
 /* MOBILE RESPONSIVENESS
-///
-///
-///
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
 */
 @media (max-width: 375px) {
   body {
@@ -260,7 +272,7 @@ table {
     color: white;
   }
   .hero {
-    background-image: url('/img/header.jpeg');
+    background-image: url('../img/aboutme.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -509,7 +521,7 @@ table {
     color: white;
   }
   .hero {
-    background-image: url('/img/header.jpeg');
+    background-image: url('../img/aboutme.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -708,14 +720,26 @@ table {
     color: white;
   }
 }
-/* TABLETS */
+/* TABLETS
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+*/
 @media (min-width: 481px) and (max-width: 912px) {
   body {
     background-color: black;
     color: white;
   }
   .hero {
-    background-image: url('/img/header.jpeg');
+    background-image: url('../img/aboutme.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
