@@ -24,7 +24,7 @@ body {
   color: white;
 }
 .hero {
-  background-image: url('/img/projects.jpg');
+  background-image: url('../img/projects.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -300,9 +300,23 @@ nav {
   text-decoration: none;
   font-size: 1.3em;
 }
+/* Iphone SE
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+*/
 @media (max-width: 375px) {
   .hero {
-    background-image: url('/img/header.jpeg');
+    background-image: url('../img/projects.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -554,9 +568,25 @@ nav {
     color: white;
   }
 }
+/* Iphone XR 
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+*/
 @media (min-width: 376px) and (max-width: 480px) {
   .hero {
-    background-image: url('/img/header.jpeg');
+    background-image: url('../img/projects.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -813,9 +843,25 @@ nav {
     color: white;
   }
 }
+/* TABLET VIEW
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+*/
 @media (min-width: 481px) and (max-width: 912px) {
   .hero {
-    background-image: url('/img/header.jpeg');
+    background-image: url('../img/projects.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
