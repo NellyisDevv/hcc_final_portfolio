@@ -24,7 +24,7 @@ body {
   color: white;
 }
 .hero {
-  background-image: url('/img/schoolfix.jpg');
+  background-image: url('../img/schoolfix.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -314,10 +314,22 @@ h3 {
 ///
 ///
 ///
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
 */
 @media (max-width: 375px) {
   .hero {
-    background-image: url('/img/schoolfix.jpg');
+    background-image: url('../img/schoolfix.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -612,10 +624,24 @@ h3 {
     color: white;
   }
 }
-/* IPHONE XR AND UP */
+/* IPHONE XR AND UP 
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+*/
 @media (min-width: 376px) and (max-width: 480px) {
   .hero {
-    background-image: url('/img/schoolfix.jpg');
+    background-image: url('../img/schoolfix.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -912,9 +938,25 @@ h3 {
     color: white;
   }
 }
+/* TABLET
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+*/
 @media (min-width: 481px) and (max-width: 912px) {
   .hero {
-    background-image: url('/img/schoolfix.jpg');
+    background-image: url('../img/schoolfix.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1185,6 +1227,24 @@ h3 {
     color: white;
   }
 }
+/* VIEW ON SOME MAC
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+*/
 @media (min-width: 1680px) and (max-width: 1800px) {
   .adobe-photoshop {
     height: 30vh;
