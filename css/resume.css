@@ -121,6 +121,16 @@ nav {
     color: var(--backpack-heros);
   }
 }
+.resume-section {
+  align-items: center;
+  text-align: center;
+  padding: 3em;
+}
+.resume-photo {
+  width: 50%;
+  border-radius: 2em;
+  margin: auto;
+}
 .newsletter-footer {
   flex: 1;
 }
@@ -197,17 +207,6 @@ nav {
 }
 .credits-footer a:hover {
   color: white;
-}
-
-.resume-section {
-  align-items: center;
-  text-align: center;
-  padding: 3em;
-}
-.resume-photo {
-  width: 70%;
-  border-radius: 2em;
-  margin: auto;
 }
 .button {
   text-align: center;
@@ -394,6 +393,16 @@ nav {
     font-size: 3.5em;
     font-weight: 900;
   }
+  .resume-section {
+    align-items: center;
+    text-align: center;
+    padding: 3em;
+  }
+  .resume-photo {
+    width: 100%;
+    border-radius: 2em;
+    margin: auto;
+  }
   .footer-container {
     background-color: var(--color-one);
     display: flex;
@@ -570,6 +579,16 @@ nav {
     font-size: 5em;
     font-weight: 900;
   }
+  .resume-section {
+    align-items: center;
+    text-align: center;
+    padding: 3em;
+  }
+  .resume-photo {
+    width: 100%;
+    border-radius: 2em;
+    margin: auto;
+  }
   .footer-container {
     background-color: var(--color-one);
     display: flex;
@@ -745,6 +764,16 @@ nav {
   .self-introduction h2 {
     font-size: 8em;
     font-weight: 900;
+  }
+  .resume-section {
+    align-items: center;
+    text-align: center;
+    padding: 3em;
+  }
+  .resume-photo {
+    width: 80%;
+    border-radius: 2em;
+    margin: auto;
   }
   .footer-container {
     background-color: var(--color-one);
@@ -926,5 +955,99 @@ nav {
   .social-links li {
     padding: 0em 0.2em 0em 0.2em;
     transform: scale(0.6);
+  }
+}
+/* MAC HEADER VIEW FIX
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+*/
+@media (min-width: 1680px) and (max-width: 1800px) {
+  .hero {
+    background-image: url('../img/resume.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    background-attachment: fixed;
+  }
+  nav {
+    color: var(--color-white);
+    display: flex;
+    padding: 3em;
+    width: 100%;
+    transition: 2s;
+  }
+  .logo-container {
+    flex: 1;
+  }
+  .logo-container h1 {
+    font-size: 2em;
+    font-weight: 800;
+  }
+  .logo-container a {
+    color: var(--color-white);
+    text-decoration: none;
+  }
+  .logo-container a:hover {
+    color: var(--color-one);
+  }
+  .link-container {
+    flex: 1;
+  }
+  .link-container ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+  .link-container li {
+    padding: 0.6em 0.4em 0em 0.4em;
+  }
+  .link-container a {
+    color: var(--color-white);
+    text-decoration: none;
+  }
+  #button {
+    background-color: var(--color-one);
+    padding: 0.6em;
+    border-radius: 2em;
+  }
+  #button:hover {
+    color: white;
+    background-color: #464e2e;
+    animation-name: button;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .self-introduction {
+    color: var(--color-white);
+    padding: 3em;
+    transition: 2s;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -1em;
+    width: 100%;
+    text-align: center;
+  }
+  .self-introduction h2 {
+    font-size: 9em;
+    font-weight: 900;
+  }
+  .adobe-photoshop {
+    height: 30vh;
   }
 }
