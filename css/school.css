@@ -327,20 +327,24 @@ h3 {
 /
 /
 */
-@media (max-width: 375px) {
+@media (min-width: 300px) and (max-width: 375px) {
+  body {
+    background-color: black;
+    color: white;
+  }
   .hero {
     background-image: url('../img/schoolfix.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh;
+    height: 60vh;
     background-attachment: fixed;
   }
   nav {
     color: var(--color-white);
     display: flex;
     flex-direction: column;
-    padding: 3em;
+    padding: 2em;
     width: 100%;
     transition: 2s;
   }
@@ -348,7 +352,7 @@ h3 {
     flex: 1;
   }
   .logo-container h1 {
-    font-size: 1.4em;
+    font-size: 1.5em;
     font-weight: 800;
     text-align: center;
   }
@@ -365,10 +369,9 @@ h3 {
   .link-container ul {
     display: flex;
     list-style-type: none;
-    justify-content: flex-end;
+    justify-content: center;
     font-size: 0.8em;
     font-weight: 500;
-    text-align: center;
   }
   .link-container li {
     padding: 0.6em 0.4em 0em 0.4em;
@@ -391,17 +394,16 @@ h3 {
   }
   .self-introduction {
     color: var(--color-white);
-    padding: 3em;
     transition: 2s;
     display: flex;
     flex-direction: column;
     position: relative;
     top: -3em;
+    right: 0.2em;
     width: 100%;
-    text-align: center;
   }
   .self-introduction h2 {
-    font-size: 5em;
+    font-size: 2.8em;
     font-weight: 900;
   }
   @keyframes button {
