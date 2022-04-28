@@ -1119,8 +1119,7 @@ nav {
     color: white;
   }
 }
-/* MAC HEADER VIEW FIX
-/
+/* RESPONSIVE VIEW ON SOME SMALLER LAPTOPS 
 /
 /
 /
@@ -1135,19 +1134,11 @@ nav {
 /
 /
 */
-@media (min-width: 1680px) and (max-width: 1800px) {
-  .hero {
-    background-image: url('../img/projects.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50vh;
-    background-attachment: fixed;
-  }
+@media (min-width: 913px) and (max-width: 1300px) {
   nav {
     color: var(--color-white);
     display: flex;
-    padding: 3em;
+    padding: 2em;
     width: 100%;
     transition: 2s;
   }
@@ -1155,7 +1146,7 @@ nav {
     flex: 1;
   }
   .logo-container h1 {
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 800;
   }
   .logo-container a {
@@ -1174,6 +1165,7 @@ nav {
     justify-content: flex-end;
     font-size: 1.2em;
     font-weight: 500;
+    align-items: center;
   }
   .link-container li {
     padding: 0.6em 0.4em 0em 0.4em;
@@ -1186,6 +1178,8 @@ nav {
     background-color: var(--color-one);
     padding: 0.6em;
     border-radius: 2em;
+    position: relative;
+    top: 0.4em;
   }
   #button:hover {
     color: white;
@@ -1206,7 +1200,7 @@ nav {
     text-align: center;
   }
   .self-introduction h2 {
-    font-size: 9em;
+    font-size: 6em;
     font-weight: 900;
   }
 }

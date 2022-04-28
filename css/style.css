@@ -1706,7 +1706,6 @@ nav {
   .logo-container h1 {
     font-size: 2.5em;
     font-weight: 800;
-    text-align: center;
   }
   .logo-container a {
     color: var(--color-white);
@@ -1775,7 +1774,7 @@ nav {
   }
   .social-links {
     position: relative;
-    top: 20em;
+    top: 3em;
   }
   .social-links ul {
     list-style-type: none;
