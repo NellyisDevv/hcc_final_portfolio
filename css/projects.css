@@ -88,7 +88,7 @@ nav {
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 5em;
+  top: 3em;
   width: 100%;
   text-align: center;
 }
@@ -314,7 +314,7 @@ nav {
 /
 /
 */
-@media (min-width: 300px) and (max-width: 375px) {
+@media (min-width: 300px) and (max-width: 350px) {
   body {
     background-color: black;
     color: white;
@@ -572,7 +572,8 @@ nav {
     color: white;
   }
 }
-/* Iphone XR 
+/* IPHONE X EQUIVILENT
+/
 /
 /
 /
@@ -588,9 +589,13 @@ nav {
 /
 /
 */
-@media (min-width: 376px) and (max-width: 480px) {
+@media (min-width: 351px) and (max-width: 400px) {
+  body {
+    background-color: black;
+    color: white;
+  }
   .hero {
-    background-image: url('../img/projects.jpg');
+    background-image: url('../img/projectsfix.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -626,8 +631,398 @@ nav {
   .link-container ul {
     display: flex;
     list-style-type: none;
+    justify-content: center;
+    font-size: 0.9em;
+    font-weight: 500;
+  }
+  .link-container li {
+    padding: 0.6em 0.4em 0em 0.4em;
+  }
+  .link-container a {
+    color: var(--color-white);
+    text-decoration: none;
+  }
+  #button {
+    background-color: var(--color-one);
+    padding: 0.6em;
+    border-radius: 2em;
+  }
+  #button:hover {
+    color: white;
+    background-color: #464e2e;
+    animation-name: button;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .self-introduction {
+    color: var(--color-white);
+    padding: 3em;
+    transition: 2s;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -2em;
+    width: 90%;
+  }
+  .self-introduction {
+    color: var(--color-white);
+    transition: 2s;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -3em;
+    right: 0.2em;
+    width: 100%;
+  }
+  .self-introduction h2 {
+    font-size: 4em;
+    font-weight: 900;
+  }
+  .project-header-text h3 {
+    font-size: 2em;
+    text-align: center;
+    padding: 1em 0em 0em 0em;
+    transition: 2s;
+    animation-name: project;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  .project-one {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 2em 3em 1em 3em;
+    transition: 2s;
+  }
+  .project-one h4 {
+    font-size: 2em;
+    text-align: center;
+    padding: 0.3em 0em 0.3em 0em;
+    color: var(--backpack-heros);
+  }
+  .project-one p {
+    font-size: 0.8em;
+    width: 90%;
+    text-align: center;
+    padding: 0em 0em 1.3em 0em;
+  }
+  .project-one img {
+    width: 80%;
+    border-radius: 25em;
+  }
+  .project-one a {
+    background-color: #ecaa00;
+    padding: 0.6em;
+    border-radius: 2em;
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+  }
+  .project-two {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 2em 3em 1em 3em;
+    transition: 2s;
+  }
+  .project-two h4 {
+    font-size: 2em;
+    text-align: center;
+    padding: 0.3em 0em 0.3em 0em;
+    color: var(--g3lifeapps);
+  }
+  .project-two p {
+    font-size: 0.8em;
+    width: 90%;
+    text-align: center;
+    padding: 0em 0em 1.3em 0em;
+  }
+  .project-two img {
+    width: 90%;
+    border-radius: 25em;
+  }
+  .project-two a {
+    background-color: var(--g3lifeapps);
+    padding: 0.6em;
+    border-radius: 2em;
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+  }
+  .project-three {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 2em 3em 1em 3em;
+    transition: 2s;
+  }
+  .project-three h4 {
+    font-size: 2em;
+    text-align: center;
+    padding: 0.3em 0em 0.3em 0em;
+    color: var(--mango-chapel);
+  }
+  .project-three p {
+    font-size: 0.8em;
+    width: 90%;
+    text-align: center;
+    padding: 0em 0em 1.3em 0em;
+  }
+  .project-three img {
+    width: 90%;
+    border-radius: 25em;
+  }
+  .project-three a {
+    background-color: var(--mango-chapel);
+    padding: 0.6em;
+    border-radius: 2em;
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+  }
+  .project-header-text h3 {
+    font-size: 2.8em;
+    text-align: center;
+    padding: 1em 0em 0em 0em;
+    transition: 2s;
+    animation-name: project;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  .project-one {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 2em 3em 1em 3em;
+    transition: 2s;
+  }
+  .project-one h4 {
+    font-size: 2.7em;
+    text-align: center;
+    padding: 0.3em 0em 0.3em 0em;
+    color: var(--backpack-heros);
+  }
+  .project-one p {
+    font-size: 0.9em;
+    width: 90%;
+    text-align: center;
+    padding: 0em 0em 1.3em 0em;
+  }
+  .project-one img {
+    width: 100%;
+    border-radius: 25em;
+  }
+  .project-one a {
+    background-color: #ecaa00;
+    padding: 0.6em;
+    border-radius: 2em;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  .project-two {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 2em 3em 1em 3em;
+    transition: 2s;
+  }
+  .project-two h4 {
+    font-size: 2.8em;
+    text-align: center;
+    padding: 0.3em 0em 0.3em 0em;
+    color: var(--g3lifeapps);
+  }
+  .project-two p {
+    font-size: 0.9em;
+    width: 90%;
+    text-align: center;
+    padding: 0em 0em 1.3em 0em;
+  }
+  .project-two img {
+    width: 100%;
+    border-radius: 25em;
+  }
+  .project-two a {
+    background-color: var(--g3lifeapps);
+    padding: 0.6em;
+    border-radius: 2em;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  .project-three {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 2em 3em 1em 3em;
+    transition: 2s;
+  }
+  .project-three h4 {
+    font-size: 2.8em;
+    text-align: center;
+    padding: 0.3em 0em 0.3em 0em;
+    color: var(--mango-chapel);
+  }
+  .project-three p {
+    font-size: 0.9em;
+    text-align: justify;
+    width: 90%;
+    text-align: center;
+    padding: 0em 0em 1.3em 0em;
+  }
+  .project-three img {
+    width: 100%;
+    border-radius: 25em;
+  }
+  .project-three a {
+    background-color: var(--mango-chapel);
+    padding: 0.6em;
+    border-radius: 2em;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  .footer-container {
+    background-color: var(--color-one);
+    display: flex;
+    padding: 0.7em;
+    margin-top: 2em;
+  }
+  .logo-footer {
+    flex: 3;
+    padding: 0.7em;
+  }
+  .logo-footer h5 {
+    font-size: 0.8em;
+  }
+  .logo-footer p {
+    font-size: 0.7em;
+    padding: 0.4em 0em 0em 0em;
+    color: rgb(206, 206, 206);
+  }
+  #bold {
+    color: white;
+    font-size: 0.8em;
+  }
+  .explore-footer {
+    flex: 1em;
+    padding: 0.7em;
+  }
+  .explore-footer h6 {
+    font-size: 0.8em;
+  }
+  .explore-footer ul {
+    list-style-type: none;
+    font-size: 0.7em;
+  }
+  .explore-footer a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+  }
+  .explore-footer a:hover {
+    color: white;
+  }
+  .follow-footer {
+    flex: 1;
+    padding: 0.7em;
+  }
+  .follow-footer h6 {
+    font-size: 0.8em;
+  }
+  .follow-footer ul {
+    list-style-type: none;
+    font-size: 0.7em;
+  }
+  .follow-footer a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+  }
+  .follow-footer a:hover {
+    color: white;
+  }
+  .credits-footer {
+    flex: 1em;
+    padding: 0.7em;
+  }
+  .credits-footer h6 {
+    font-size: 0.8em;
+  }
+  .credits-footer ul {
+    list-style-type: none;
+    font-size: 0.7em;
+  }
+  .credits-footer a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+  }
+  .credits-footer a:hover {
+    color: white;
+  }
+}
+/* Iphone XR 
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+*/
+@media (min-width: 376px) and (max-width: 480px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+  .hero {
+    background-image: url('../img/projectsfix.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    background-attachment: fixed;
+  }
+  nav {
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    width: 100%;
+    transition: 2s;
+  }
+  .logo-container {
+    flex: 1;
+  }
+  .logo-container h1 {
+    font-size: 3em;
+    font-weight: 800;
+    text-align: center;
+  }
+  .logo-container a {
+    color: var(--color-white);
+    text-decoration: none;
+  }
+  .logo-container a:hover {
+    color: var(--color-one);
+  }
+  .link-container {
+    flex: 1;
+    width: 100%;
+  }
+  .link-container ul {
+    display: flex;
+    list-style-type: none;
     justify-content: flex-end;
     font-size: 1em;
+    position: relative;
+    left: 0.8em;
     font-weight: 500;
     align-items: center;
   }
@@ -659,9 +1054,8 @@ nav {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 0em;
-    width: 90%;
-    text-align: center;
+    top: -2.5em;
+    width: 100%;
   }
   .self-introduction h2 {
     font-size: 4em;

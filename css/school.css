@@ -88,7 +88,7 @@ nav {
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 5em;
+  top: 3em;
   width: 100%;
   text-align: center;
 }
@@ -327,7 +327,7 @@ h3 {
 /
 /
 */
-@media (min-width: 300px) and (max-width: 375px) {
+@media (min-width: 300px) and (max-width: 350px) {
   body {
     background-color: black;
     color: white;
@@ -626,7 +626,9 @@ h3 {
     color: white;
   }
 }
-/* IPHONE XR AND UP 
+/* IPHONE X EQUIVILENT
+/
+/
 /
 /
 /
@@ -641,7 +643,11 @@ h3 {
 /
 /
 */
-@media (min-width: 376px) and (max-width: 480px) {
+@media (min-width: 351px) and (max-width: 400px) {
+  body {
+    background-color: black;
+    color: white;
+  }
   .hero {
     background-image: url('../img/schoolfix.jpg');
     background-position: center;
@@ -654,9 +660,7 @@ h3 {
     color: var(--color-white);
     display: flex;
     flex-direction: column;
-    padding: 3em;
-    margin: auto;
-    text-align: center;
+    padding: 2em;
     width: 100%;
     transition: 2s;
   }
@@ -664,7 +668,7 @@ h3 {
     flex: 1;
   }
   .logo-container h1 {
-    font-size: 1.4em;
+    font-size: 2em;
     font-weight: 800;
     text-align: center;
   }
@@ -681,10 +685,9 @@ h3 {
   .link-container ul {
     display: flex;
     list-style-type: none;
-    justify-content: flex-end;
-    font-size: 0.8em;
+    justify-content: center;
+    font-size: 0.9em;
     font-weight: 500;
-    text-align: center;
   }
   .link-container li {
     padding: 0.6em 0.4em 0em 0.4em;
@@ -712,12 +715,316 @@ h3 {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: -1em;
+    top: -2em;
+    width: 90%;
+  }
+  .self-introduction {
+    color: var(--color-white);
+    transition: 2s;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -3em;
+    right: 0.2em;
     width: 100%;
-    text-align: center;
   }
   .self-introduction h2 {
-    font-size: 5em;
+    font-size: 4em;
+    font-weight: 900;
+  }
+  h3 {
+    font-size: 2em;
+    text-align: center;
+    padding: 0.8em 0em 0.8em 0em;
+  }
+  .adobe-one {
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+  }
+  .adobe-photoshop {
+    height: 30vh;
+  }
+  .adobe-one h4 {
+    font-size: 2em;
+    padding: 0.5em 0em 0em 0em;
+    color: var(--color-one);
+  }
+  .adobe-one p {
+    font-size: 1em;
+    width: 100%;
+    margin: auto;
+    padding: 0.2em 0.2em;
+  }
+  .adobe-two {
+    align-items: center;
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+  }
+  .adobe-two h4 {
+    font-size: 2em;
+    padding: 0.5em 0em 0em 0em;
+    color: var(--color-one);
+  }
+  .adobe-two p {
+    font-size: 1em;
+    width: 100%;
+    margin: auto;
+    padding: 0.2em 0.2em;
+  }
+  .adobe-video {
+    width: 100%;
+  }
+  .adobe-three {
+    align-items: center;
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+  }
+  .adobe-three h4 {
+    font-size: 2em;
+    padding: 0.5em 0em 0em 0em;
+    color: var(--color-one);
+  }
+  .adobe-three p {
+    font-size: 1em;
+    width: 100%;
+    margin: auto;
+    padding: 0.2em 0.2em;
+  }
+  .adobe-four {
+    align-items: center;
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+  }
+  .adobe-four h4 {
+    font-size: 2em;
+    padding: 0.5em 0em 0em 0em;
+    color: var(--color-one);
+  }
+  .adobe-four p {
+    font-size: 1em;
+    width: 100%;
+    margin: auto;
+    padding: 0.2em 0.2em;
+  }
+  .adobe-five {
+    align-items: center;
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+  }
+  .adobe-five h4 {
+    font-size: 2em;
+    padding: 0.5em 0em 0em 0em;
+    color: var(--color-one);
+  }
+  .adobe-five p {
+    font-size: 1em;
+    width: 100%;
+    margin: auto;
+    padding: 0.2em 0.2em;
+  }
+  .indesign-photo {
+    height: 55vh;
+  }
+  .adobe-six {
+    align-items: center;
+    text-align: center;
+    margin: 1em;
+    padding: 3em;
+  }
+  .adobe-six h4 {
+    font-size: 2em;
+    padding: 0.5em 0em 0em 0em;
+    color: var(--color-one);
+  }
+  .adobe-six p {
+    font-size: 1em;
+    width: 100%;
+    margin: auto;
+    padding: 0.2em 0.2em;
+  }
+  .animate-video {
+    width: 100%;
+  }
+  .footer-container {
+    background-color: var(--color-one);
+    display: flex;
+    padding: 0.7em;
+    margin-top: 2em;
+  }
+  .logo-footer {
+    flex: 3;
+    padding: 0.7em;
+  }
+  .logo-footer h5 {
+    font-size: 0.8em;
+  }
+  .logo-footer p {
+    font-size: 0.7em;
+    padding: 0.4em 0em 0em 0em;
+    color: rgb(206, 206, 206);
+  }
+  #bold {
+    color: white;
+    font-size: 0.8em;
+  }
+  .explore-footer {
+    flex: 1em;
+    padding: 0.7em;
+  }
+  .explore-footer h6 {
+    font-size: 0.8em;
+  }
+  .explore-footer ul {
+    list-style-type: none;
+    font-size: 0.7em;
+  }
+  .explore-footer a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+  }
+  .explore-footer a:hover {
+    color: white;
+  }
+  .follow-footer {
+    flex: 1;
+    padding: 0.7em;
+  }
+  .follow-footer h6 {
+    font-size: 0.8em;
+  }
+  .follow-footer ul {
+    list-style-type: none;
+    font-size: 0.7em;
+  }
+  .follow-footer a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+  }
+  .follow-footer a:hover {
+    color: white;
+  }
+  .credits-footer {
+    flex: 1em;
+    padding: 0.7em;
+  }
+  .credits-footer h6 {
+    font-size: 0.8em;
+  }
+  .credits-footer ul {
+    list-style-type: none;
+    font-size: 0.7em;
+  }
+  .credits-footer a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+  }
+  .credits-footer a:hover {
+    color: white;
+  }
+}
+/* IPHONE XR AND UP 
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+*/
+@media (min-width: 376px) and (max-width: 480px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+  .hero {
+    background-image: url('../img/schoolfix.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    background-attachment: fixed;
+  }
+  nav {
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    width: 100%;
+    transition: 2s;
+  }
+  .logo-container {
+    flex: 1;
+  }
+  .logo-container h1 {
+    font-size: 3em;
+    font-weight: 800;
+    text-align: center;
+  }
+  .logo-container a {
+    color: var(--color-white);
+    text-decoration: none;
+  }
+  .logo-container a:hover {
+    color: var(--color-one);
+  }
+  .link-container {
+    flex: 1;
+    width: 100%;
+  }
+  .link-container ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    font-size: 1em;
+    position: relative;
+    left: 0.8em;
+    font-weight: 500;
+    align-items: center;
+  }
+  .link-container li {
+    padding: 0.6em 0.4em 0em 0.4em;
+  }
+  .link-container a {
+    color: var(--color-white);
+    text-decoration: none;
+  }
+  #button {
+    background-color: var(--color-one);
+    padding: 0.6em;
+    border-radius: 2em;
+    position: relative;
+    top: 0.4em;
+  }
+  #button:hover {
+    color: white;
+    background-color: #464e2e;
+    animation-name: button;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .self-introduction {
+    color: var(--color-white);
+    padding: 3em;
+    transition: 2s;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -2.5em;
+    width: 100%;
+  }
+  .self-introduction h2 {
+    font-size: 4em;
     font-weight: 900;
   }
   @keyframes button {
