@@ -39,10 +39,17 @@
           document.getElementById('easter').value;
           alert('You Found My Easter Egg!');
         }
+
+        const audio = new Audio();
+
+        audio.src = 'storm.wav';
       </script>
       <div class="self-introduction">
         <h2>Hi I'm Nelson</h2>
-        <h3>A Web <span onclick="easter()" id="easter">Developer!</span></h3>
+        <h3>
+          A Web
+          <span onclick="easter(), audio.play()" id="easter">Developer!</span>
+        </h3>
         <p>
           I'm currently enrolled at Hillsborough Community College, receiving an
           A.S. Degree in Web Design.
