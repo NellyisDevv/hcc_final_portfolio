@@ -1058,102 +1058,6 @@ nav {
     top: 10em;
   }
 }
-/* RESPONSIVE VIEW ON SOME SMALLER LAPTOPS */
-@media (min-width: 913px) and (max-width: 1300px) {
-  nav {
-    color: var(--color-white);
-    display: flex;
-    padding: 2em;
-    width: 100%;
-    transition: 2s;
-  }
-  .logo-container {
-    flex: 1;
-  }
-  .logo-container h1 {
-    font-size: 2.5em;
-    font-weight: 800;
-    text-align: center;
-  }
-  .logo-container a {
-    color: var(--color-white);
-    text-decoration: none;
-  }
-  .logo-container a:hover {
-    color: var(--color-one);
-  }
-  .link-container {
-    flex: 1;
-  }
-  .link-container ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: flex-end;
-    font-size: 1.2em;
-    font-weight: 500;
-    align-items: center;
-  }
-  .link-container li {
-    padding: 0.6em 0.4em 0em 0.4em;
-  }
-  .link-container a {
-    color: var(--color-white);
-    text-decoration: none;
-  }
-  #button {
-    background-color: var(--color-one);
-    padding: 0.6em;
-    border-radius: 2em;
-    position: relative;
-    top: 0.4em;
-  }
-  #button:hover {
-    color: white;
-    background-color: #464e2e;
-    animation-name: button;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-  }
-  .self-introduction {
-    color: var(--color-white);
-    padding: 3em;
-    transition: 2s;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: 8em;
-    width: 90%;
-  }
-  .self-introduction h2 {
-    font-size: 6em;
-    font-weight: 900;
-  }
-  .self-introduction h3 {
-    font-size: 4em;
-    font-weight: 900;
-    position: relative;
-    bottom: 0.4em;
-  }
-  .self-introduction p {
-    font-size: 1.2em;
-    width: 80%;
-    position: relative;
-    bottom: 0.8em;
-  }
-  .social-links {
-    position: relative;
-    top: 20em;
-  }
-  .social-links ul {
-    list-style-type: none;
-    padding: 3em;
-    display: flex;
-  }
-  .social-links li {
-    padding: 0em 0.2em 0em 0.2em;
-    transform: scale(0.6);
-  }
-}
 /* RESPONSIVE VIEW ON SOME SMALLER LAPTOPS 
 /
 /
@@ -1169,7 +1073,7 @@ nav {
 /
 /
 */
-@media (min-width: 913px) and (max-width: 1300px) {
+@media (min-width: 913px) and (max-width: 1730px) {
   nav {
     color: var(--color-white);
     display: flex;
@@ -1209,20 +1113,6 @@ nav {
   .link-container a {
     color: var(--color-white);
     text-decoration: none;
-  }
-  #button {
-    background-color: var(--color-one);
-    padding: 0.6em;
-    border-radius: 2em;
-    position: relative;
-    top: 0.4em;
-  }
-  #button:hover {
-    color: white;
-    background-color: #464e2e;
-    animation-name: button;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
   }
   .self-introduction {
     color: var(--color-white);

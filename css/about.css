@@ -1181,7 +1181,7 @@ table {
 /
 /
 */
-@media (min-width: 913px) and (max-width: 1300px) {
+@media (min-width: 913px) and (max-width: 1730px) {
   nav {
     color: var(--color-white);
     display: flex;
